@@ -1,0 +1,18 @@
+.example-card {
+     display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    margin-right: 39%;
+    margin-left: 30%; 
+   
+  }
+  .example-card.primary{
+    /* background-color: #00ffc8;
+    color: #FFF; */
+  }
+  .example-container > * {
+    width: 100%;
+    height: 50%;
+    margin-top: 20%;
+  }
+  
