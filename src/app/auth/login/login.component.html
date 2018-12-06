@@ -1,4 +1,7 @@
-<mat-card>
+<mat-card class="customMatCard">
+  <mat-card-header>
+    <mat-card-title>UserManagment</mat-card-title>
+  </mat-card-header>
   <mat-spinner *ngIf="isLoading"></mat-spinner>
   <form (submit)="onLogin(loginForm)" #loginForm="ngForm" *ngIf="!isLoading">
     <mat-form-field>
