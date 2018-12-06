@@ -1,13 +1,11 @@
-table {
-    width: 100%;
-    
-  }
-  .padd20{
-    padding: 20px 22px;
-    margin-left: 6px;
-  }
- .newUser {
-    float: right;
-    color: #ffffff !important;
-  }
-  
+mat-spinner {
+  margin: auto;
+}
+
+mat-paginator {
+  margin-top: 1rem;
+}
+
+.info-text {
+  text-align: center;
+}
